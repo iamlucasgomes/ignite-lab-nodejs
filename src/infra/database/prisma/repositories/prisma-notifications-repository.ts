@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { Notification } from '../../../../app/entities/notification';
-import { NotificationRepository } from '../../../../app/repositories/notification-repository';
+import { Notification } from '@app/entities/notification';
+import { NotificationRepository } from '@app/repositories/notification-repository';
 import { PrismaService } from '../prisma.service';
 
 @Injectable()
